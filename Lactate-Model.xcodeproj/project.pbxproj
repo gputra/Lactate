@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		778825F71D72F57000288861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778825F61D72F57000288861 /* AppDelegate.swift */; };
+		778825F91D72F57000288861 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778825F81D72F57000288861 /* MainViewController.swift */; };
+		778825FC1D72F57000288861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778825FA1D72F57000288861 /* Main.storyboard */; };
+		778825FF1D72F57000288861 /* Lactate_Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 778825FD1D72F57000288861 /* Lactate_Model.xcdatamodeld */; };
+		778826011D72F57000288861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778826001D72F57000288861 /* Assets.xcassets */; };
+		778826041D72F57000288861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778826021D72F57000288861 /* LaunchScreen.storyboard */; };
+		7788260F1D72F57000288861 /* Lactate_ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788260E1D72F57000288861 /* Lactate_ModelTests.swift */; };
+		7788261A1D72F60900288861 /* UserStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778826191D72F60900288861 /* UserStatistics.swift */; };
+		7788261C1D72F79900288861 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788261B1D72F79900288861 /* TestViewController.swift */; };
+		7788261E1D72F96700288861 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788261D1D72F96700288861 /* ResultsViewController.swift */; };
+		778826221D73023200288861 /* TestImitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778826211D73023200288861 /* TestImitation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7788260B1D72F57000288861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778825EB1D72F57000288861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778825F21D72F57000288861;
+			remoteInfo = "Lactate-Model";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		778825F31D72F57000288861 /* Lactate-Model.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lactate-Model.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778825F61D72F57000288861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		778825F81D72F57000288861 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		778825FB1D72F57000288861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		778825FE1D72F57000288861 /* Lactate_Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lactate_Model.xcdatamodel; sourceTree = "<group>"; };
+		778826001D72F57000288861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		778826031D72F57000288861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		778826051D72F57000288861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7788260A1D72F57000288861 /* Lactate-ModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lactate-ModelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7788260E1D72F57000288861 /* Lactate_ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lactate_ModelTests.swift; sourceTree = "<group>"; };
+		778826101D72F57000288861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778826191D72F60900288861 /* UserStatistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStatistics.swift; sourceTree = "<group>"; };
+		7788261B1D72F79900288861 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		7788261D1D72F96700288861 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		778826211D73023200288861 /* TestImitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestImitation.swift; path = ../TestImitation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		778825F01D72F57000288861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778826071D72F57000288861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		778825EA1D72F57000288861 = {
+			isa = PBXGroup;
+			children = (
+				778825F51D72F57000288861 /* Lactate-Model */,
+				7788260D1D72F57000288861 /* Lactate-ModelTests */,
+				778825F41D72F57000288861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		778825F41D72F57000288861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				778825F31D72F57000288861 /* Lactate-Model.app */,
+				7788260A1D72F57000288861 /* Lactate-ModelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		778825F51D72F57000288861 /* Lactate-Model */ = {
+			isa = PBXGroup;
+			children = (
+				778825F61D72F57000288861 /* AppDelegate.swift */,
+				778825F81D72F57000288861 /* MainViewController.swift */,
+				778825FA1D72F57000288861 /* Main.storyboard */,
+				7788261D1D72F96700288861 /* ResultsViewController.swift */,
+				7788261B1D72F79900288861 /* TestViewController.swift */,
+				778826191D72F60900288861 /* UserStatistics.swift */,
+				778826211D73023200288861 /* TestImitation.swift */,
+				778826001D72F57000288861 /* Assets.xcassets */,
+				778826021D72F57000288861 /* LaunchScreen.storyboard */,
+				778826051D72F57000288861 /* Info.plist */,
+				778825FD1D72F57000288861 /* Lactate_Model.xcdatamodeld */,
+			);
+			path = "Lactate-Model";
+			sourceTree = "<group>";
+		};
+		7788260D1D72F57000288861 /* Lactate-ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				7788260E1D72F57000288861 /* Lactate_ModelTests.swift */,
+				778826101D72F57000288861 /* Info.plist */,
+			);
+			path = "Lactate-ModelTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778825F21D72F57000288861 /* Lactate-Model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778826131D72F57000288861 /* Build configuration list for PBXNativeTarget "Lactate-Model" */;
+			buildPhases = (
+				778825EF1D72F57000288861 /* Sources */,
+				778825F01D72F57000288861 /* Frameworks */,
+				778825F11D72F57000288861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lactate-Model";
+			productName = "Lactate-Model";
+			productReference = 778825F31D72F57000288861 /* Lactate-Model.app */;
+			productType = "com.apple.product-type.application";
+		};
+		778826091D72F57000288861 /* Lactate-ModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778826161D72F57000288861 /* Build configuration list for PBXNativeTarget "Lactate-ModelTests" */;
+			buildPhases = (
+				778826061D72F57000288861 /* Sources */,
+				778826071D72F57000288861 /* Frameworks */,
+				778826081D72F57000288861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7788260C1D72F57000288861 /* PBXTargetDependency */,
+			);
+			name = "Lactate-ModelTests";
+			productName = "Lactate-ModelTests";
+			productReference = 7788260A1D72F57000288861 /* Lactate-ModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		778825EB1D72F57000288861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Evgeny Akintev";
+				TargetAttributes = {
+					778825F21D72F57000288861 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					778826091D72F57000288861 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 778825F21D72F57000288861;
+					};
+				};
+			};
+			buildConfigurationList = 778825EE1D72F57000288861 /* Build configuration list for PBXProject "Lactate-Model" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 778825EA1D72F57000288861;
+			productRefGroup = 778825F41D72F57000288861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				778825F21D72F57000288861 /* Lactate-Model */,
+				778826091D72F57000288861 /* Lactate-ModelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778825F11D72F57000288861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778826041D72F57000288861 /* LaunchScreen.storyboard in Resources */,
+				778826011D72F57000288861 /* Assets.xcassets in Resources */,
+				778825FC1D72F57000288861 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778826081D72F57000288861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778825EF1D72F57000288861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778826221D73023200288861 /* TestImitation.swift in Sources */,
+				778825F91D72F57000288861 /* MainViewController.swift in Sources */,
+				7788261A1D72F60900288861 /* UserStatistics.swift in Sources */,
+				7788261C1D72F79900288861 /* TestViewController.swift in Sources */,
+				7788261E1D72F96700288861 /* ResultsViewController.swift in Sources */,
+				778825FF1D72F57000288861 /* Lactate_Model.xcdatamodeld in Sources */,
+				778825F71D72F57000288861 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778826061D72F57000288861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788260F1D72F57000288861 /* Lactate_ModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7788260C1D72F57000288861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778825F21D72F57000288861 /* Lactate-Model */;
+			targetProxy = 7788260B1D72F57000288861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		778825FA1D72F57000288861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778825FB1D72F57000288861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		778826021D72F57000288861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778826031D72F57000288861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		778826111D72F57000288861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		778826121D72F57000288861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		778826141D72F57000288861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lactate-Model/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eakintev.Lactate-Model";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		778826151D72F57000288861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lactate-Model/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eakintev.Lactate-Model";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		778826171D72F57000288861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lactate-ModelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eakintev.Lactate-ModelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lactate-Model.app/Lactate-Model";
+			};
+			name = Debug;
+		};
+		778826181D72F57000288861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lactate-ModelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eakintev.Lactate-ModelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lactate-Model.app/Lactate-Model";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778825EE1D72F57000288861 /* Build configuration list for PBXProject "Lactate-Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778826111D72F57000288861 /* Debug */,
+				778826121D72F57000288861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778826131D72F57000288861 /* Build configuration list for PBXNativeTarget "Lactate-Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778826141D72F57000288861 /* Debug */,
+				778826151D72F57000288861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778826161D72F57000288861 /* Build configuration list for PBXNativeTarget "Lactate-ModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778826171D72F57000288861 /* Debug */,
+				778826181D72F57000288861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		778825FD1D72F57000288861 /* Lactate_Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				778825FE1D72F57000288861 /* Lactate_Model.xcdatamodel */,
+			);
+			currentVersion = 778825FE1D72F57000288861 /* Lactate_Model.xcdatamodel */;
+			path = Lactate_Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 778825EB1D72F57000288861 /* Project object */;
+}

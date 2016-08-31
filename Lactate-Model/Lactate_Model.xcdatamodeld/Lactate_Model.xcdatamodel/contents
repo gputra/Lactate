@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="16A304a" minimumToolsVersion="Automatic">
+    <entity name="TestModel" syncable="YES"/>
+    <entity name="UserData" syncable="YES"/>
+    <elements>
+        <element name="TestModel" positionX="-63" positionY="-18" width="128" height="45"/>
+        <element name="UserData" positionX="-54" positionY="-9" width="128" height="45"/>
+    </elements>
+</model>
